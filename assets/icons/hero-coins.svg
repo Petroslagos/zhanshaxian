@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <circle cx="70" cy="90" r="50" fill="#a68419" stroke="#c9a227" stroke-width="3"/>
+  <circle cx="70" cy="90" r="40" fill="none" stroke="#dbb84d" stroke-width="1"/>
+  <text x="70" y="98" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#1a1612">SPQR</text>
+  <circle cx="115" cy="100" r="45" fill="#8a7355" stroke="#a09080" stroke-width="3"/>
+  <circle cx="115" cy="100" r="36" fill="none" stroke="#b0a090" stroke-width="1"/>
+  <text x="115" y="107" text-anchor="middle" font-family="serif" font-size="20" fill="#1a1612">DN</text>
+</svg>

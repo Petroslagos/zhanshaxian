@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#1a1612"/>
+  <rect x="40" y="40" width="1120" height="550" fill="#2a231c" stroke="#c9a227" stroke-width="2" rx="16"/>
+  <text x="600" y="200" text-anchor="middle" font-family="serif" font-size="72" font-weight="bold" fill="#c9a227">罗马斩杀线</text>
+  <text x="600" y="270" text-anchor="middle" font-family="serif" font-size="28" fill="#a09080" letter-spacing="8">ROMAN KILL LINE</text>
+  <text x="600" y="380" text-anchor="middle" font-family="sans-serif" font-size="32" fill="#e8dcc4">你的财富在古罗马能让你活成什么样？</text>
+  <text x="600" y="480" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#a09080">基于莎草纸文献的真实经济数据</text>
+  <text x="600" y="540" text-anchor="middle" font-family="serif" font-size="20" fill="#c9a227">古典乱炖</text>
+</svg>
