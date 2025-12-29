@@ -93,24 +93,6 @@ const HARPER_DATA = {
       icon: "crisis"
     },
     {
-      id: "tetrarchy_constantine",
-      name_en: "Tetrarchy & Constantine",
-      name_zh: "四帝共治与君士坦丁",
-      name_alt: "晚期罗马帝国初期",
-      start_year: 284,
-      end_year: 363,
-      currency_system: "solidus_transition",
-      primary_coins: ["solidus", "follis", "nummus"],
-      description_en: "Diocletian's reforms. Constantine's solidus. Hyperinflation then stabilization.",
-      description_zh: "戴克里先改革。君士坦丁创立金索里杜斯。从恶性通胀到金本位稳定。基督教合法化。",
-      historical_events: ["Diocletian's Price Edict 301", "Constantine I", "Edict of Milan 313", "Council of Nicaea 325", "Constantinople founded 330"],
-      avg_wheat_price_den_art: 5000000,
-      solidus_introduced: 309,
-      silver_content_follis_g: 3.0,
-      gold_content_solidus_g: 4.5,
-      icon: "constantine"
-    },
-    {
       id: "late_roman",
       name_en: "Late Roman Empire",
       name_zh: "晚期罗马帝国",
