@@ -182,7 +182,7 @@ const App = {
             <img src="assets/icons/coin-solidus.svg" alt="" onerror="this.style.display='none'">
           </div>
           <div class="coin-info">
-            <div class="coin-name">${lang === 'zh' ? '索里杜斯(金币)' : 'Solidus'}</div>
+            <div class="coin-name">${lang === 'zh' ? '索立独斯(金币)''(金币)''suo'li</div>
             <div class="coin-amount">${Calculator.formatNumber(coins.solidus)}</div>
           </div>
         </div>
@@ -221,7 +221,7 @@ const App = {
             <img src="assets/icons/coin-denarius.svg" alt="" onerror="this.style.display='none'">
           </div>
           <div class="coin-info">
-            <div class="coin-name">${lang === 'zh' ? '第纳里(银币)' : 'Denarii'}</div>
+            <div class="coin-name">${lang === 'zh' ? '第纳尔(银币)''(银币)''di'na'</div>
             <div class="coin-amount">${Calculator.formatNumber(coins.denarii)}</div>
           </div>
         </div>
@@ -376,8 +376,7 @@ const App = {
         <div class="sources-intro-title">${lang === 'zh' ? '数据来源说明' : 'About the Data'}</div>
         <div class="sources-intro-text">
           ${lang === 'zh' 
-            ? '以下价格数据来自保存于埃及沙漠中的莎草纸文献。这些是真实的古代交易记录，由考古学家发掘并整理。' 
-            : 'The price data below comes from papyrus documents preserved in the Egyptian desert. These are real ancient transaction records excavated and cataloged by archaeologists.'}
+            ? '以下价格数据来自于埃及纸草文献。''以下价格数据来自于埃及纸草文献''以下价格数据来自于埃及纸草文献''以下价格数据来自于埃及纸草文献''以下价格数据来自于埃及纸草文献‘
         </div>
       </div>
 
