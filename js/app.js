@@ -446,7 +446,7 @@ var App = {
 
     // Note about drachma/denarius simplification
     var introText = lang === 'zh' 
-      ? '以下价格数据来自纸草文献,由Kyle Harper整理收录。注:埃及德拉克马在此视为≈第纳里乌斯(两者含银量相近,约3.5-4克)。' 
+      ? '以下价格数据来自纸草文献,由Kyle Harper整理收录。' 
       : 'The price data below comes from documentary papyri, compiled by Kyle Harper. Note: Egyptian drachma is treated as approximately equal to denarius (both contained ~3.5-4g silver).';
 
     container.innerHTML = 
