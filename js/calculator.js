@@ -157,7 +157,7 @@ const Calculator = {
         priceDisplay = this.formatNumber(avgWheat.value) + ' denarii/artaba';
       } else {
         // Drachmai treated as denarii
-        wheatQuantity = coins.denarii / avgWheat.value;
+        wheatQuantity = (coins.denarii * 4) / avgWheat.value;
         priceDisplay = avgWheat.value.toFixed(1) + ' dr/art';
       }
 
@@ -192,7 +192,7 @@ const Calculator = {
     // Calculate land rent (year) - Harper data
     var rentData = this.getRentForPeriod(periodId);
     if (rentData && coins.denarii && coins.denarii > 0) {
-      var rentQuantity = coins.denarii / rentData.avgRent;
+      var rentQuantity = (coins.denarii * 4) / rentData.avgRent;
       purchases.push({
         id: 'land',
         name_zh: '土地年租',
@@ -341,7 +341,7 @@ const Calculator = {
           dailyDenarii = w.amount;
         }
         var annualWage = dailyDenarii * 250;
-        var yearsOfWages = denarii / annualWage;
+        var yearsOfWages = (denarii * 4) / annualWage;
         
         comparisons.push({
           occupation: w.occupation,
